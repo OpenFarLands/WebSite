@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 1536px){
+    .nav-bar{
+        --tw-bg-opacity: 1;
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: whitesmoke;
+        transition: 0.55s;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 230px;
+    }
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 10px auto auto 10px;
+        opacity: 0; 
+    }
+
+    .nav-bar.active ul{
+        opacity: 1; 
+    }
+    .nav-bar ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* .head-title {
+        padding-top: 10px;
+    } */
+} 
+
+body {
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+footer {
+    margin-top: auto;
+}
