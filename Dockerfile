@@ -6,6 +6,6 @@ COPY . .
 RUN npm install
 RUN npm install -g serve
 
-RUN node run build
+RUN npm run build
 
 CMD [ "serve", "-s", "build" ]
