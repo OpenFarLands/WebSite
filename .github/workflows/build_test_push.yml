@@ -23,8 +23,7 @@ jobs:
 
             - name: build and test
               run:
-                npm ci
-                npm run build
+                npm install
                 npm test
 
     build_push:
