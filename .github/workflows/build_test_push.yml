@@ -24,7 +24,7 @@ jobs:
             - name: build and test
               run:
                 npm install
-                npm test
+                npm run test
 
     build_push:
         needs: build_test
