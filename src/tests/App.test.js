@@ -7,7 +7,7 @@ test('renders the landing page', () => {
     render(
         <BrowserRouter>
             <App />
-        </BrowserRouter
+        </BrowserRouter>
     );
     
     const title = screen.getByText("FarLands");
