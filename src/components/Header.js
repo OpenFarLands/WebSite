@@ -27,7 +27,7 @@ class Header extends React.Component {
                 <nav class="flex items-center nav-bar">
                     <ul class="2xl:inline-flex 2xl:space-x-2 items-center block">
                         <li><Link to="/" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>Главная</Link></li>
-                        <li><Link to="rules" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>Правила</Link></li>
+                        <li><a href="https://github.com/OpenFarLands/ServerRules" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>Правила</a></li>
                         <li><Link to="contacts" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>Контакты</Link></li>
                         <li><Link to="stats" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>Статистика</Link></li>
                         <li><Link to="about" class="text-black rounded-md px-3 py-2 text-base font-medium hover:opacity-70" onClick={this.onClick}>О нас</Link></li>
