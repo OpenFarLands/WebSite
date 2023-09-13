@@ -16,10 +16,12 @@ class StatsPage extends React.Component {
                     <iframe class="px-4 py-2 z-0" title="Stats" src="https://monitoring.mineserv.top/?id=1154&color=00bd6e&params=online&bordered" width="100%" height="85%" frameborder="0"></iframe>
 
                     <script src="https://mineserv.top/widgets.js"></script>
+		    <a href="https://status.far-lands.top">
+		    	<button class="hover:shadow text-black font-bold py-2 px-4 my-2 mx-4 rounded border border-slate-600">
+                        	Мониторинг аптайма
+                    	</button>
+		    </a>
 
-                    <button class="hover:shadow text-black font-bold py-2 px-4 my-2 mx-4 rounded border border-slate-600">
-                        Мониторинг аптайма (скоро)
-                    </button>
                 </div>
             </div>
 		);
