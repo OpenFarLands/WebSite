@@ -26,7 +26,7 @@ class App extends React.Component {
             <div class="page">
                 <Header />
 
-                <main>
+                <main class="mb-5">
                     <Routes>
                         <Route path="/" element={<MainPage />}/>
                         <Route path="/rules" element={<RulesPage />}/>
